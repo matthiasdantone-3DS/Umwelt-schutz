@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kleine Schritte für eine bessere Umwelt in unserer Schule.">
+  <title>GrünePause – Gemeinsam für eine bessere Umwelt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Link zum direkten Springen zum Inhalt (Barrierefreiheit) -->
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+  <!-- Kopfzeile mit Name und Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#start" class="logo" aria-label="GrünePause – Startseite">
+        <span class="logo-icon" aria-hidden="true">🌍</span>
+        <span class="logo-text">GrünePause</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#start">Start</a></li>
+          <li><a href="#tipps">Tipps</a></li>
+          <li><a href="#checkliste">Checkliste</a></li>
+          <li><a href="#fakten">Wusstest du?</a></li>
+          <li><a href="#mitmachen">Mitmachen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+
+    <!-- Startbereich -->
+    <section id="start" class="hero">
+      <div class="hero-bubbles" aria-hidden="true">
+        <span>💧</span><span>🍃</span><span>☀️</span><span>🚲</span><span>♻️</span>
+      </div>
+      <div class="container hero-inner">
+        <p class="hero-tag">Umweltprojekt unserer Schule</p>
+        <h1>Gemeinsam für eine bessere Umwelt!</h1>
+        <p class="hero-text">
+          Unsere Erde braucht uns. Mit kleinen Gewohnheiten im Schulalltag und auf dem Schulweg
+          können wir alle viel bewirken. Entdecke fünf einfache Tipps und teste, wie umweltfreundlich du schon bist!
+        </p>
+        <div class="hero-buttons">
+          <a href="#tipps" class="btn btn-primary">Tipps entdecken</a>
+          <a href="#checkliste" class="btn btn-secondary">Zur Checkliste</a>
+        </div>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,64 C240,120 480,0 720,48 C960,96 1200,110 1440,40 L1440,120 L0,120 Z"></path>
+      </svg>
+    </section>
+
+    <!-- Die fünf Tipps -->
+    <section id="tipps" class="section">
+      <div class="container">
+        <h2 class="section-title">Fünf Tipps für jeden Tag</h2>
+        <p class="section-intro">
+          Jeder Tipp ist einfach umzusetzen – in der Schule, zu Hause und unterwegs.
+        </p>
+
+        <div class="cards">
+
+          <article class="card card-water reveal">
+            <div class="card-icon" aria-hidden="true">💧</div>
+            <span class="card-number">Tipp 1</span>
+            <h3>Wasser sparen – Wasserhahn zudrehen</h3>
+            <p>
+              Sauberes Trinkwasser ist kostbar und nicht überall selbstverständlich. Trotzdem läuft
+              oft unnötig Wasser aus dem Hahn.
+            </p>
+            <ul>
+              <li>Dreh den Hahn zu, während du dir die Hände einseifst.</li>
+              <li>Lass beim Zähneputzen das Wasser nicht laufen.</li>
+              <li>Melde einen tropfenden Wasserhahn deiner Lehrerin oder deinem Lehrer.</li>
+            </ul>
+          </article>
+
+          <article class="card card-waste reveal">
+            <div class="card-icon" aria-hidden="true">♻️</div>
+            <span class="card-number">Tipp 2</span>
+            <h3>Müll trennen, wiederverwenden und reparieren</h3>
+            <p>
+              Wer Müll richtig trennt, hilft dabei, Rohstoffe wiederzuverwerten. Noch besser ist es,
+              Dinge gar nicht erst wegzuwerfen.
+            </p>
+            <ul>
+              <li>Papier, Plastik, Bioabfall und Restmüll gehören in verschiedene Behälter.</li>
+              <li>Benutze Brotdose und Trinkflasche immer wieder.</li>
+              <li>Repariere kaputte Dinge, zum Beispiel Rucksack oder Federmäppchen, bevor du Neues kaufst.</li>
+            </ul>
+          </article>
+
+          <article class="card card-energy reveal">
+            <div class="card-icon" aria-hidden="true">💡</div>
+            <span class="card-number">Tipp 3</span>
+            <h3>Strom sparen – Licht ausschalten</h3>
+            <p>
+              Strom entsteht oft noch aus Kohle, Gas oder Öl. Wer weniger Strom verbraucht,
+              schützt also auch das Klima.
+            </p>
+            <ul>
+              <li>Schalte das Licht aus, wenn du den Raum verlässt.</li>
+              <li>Nutze tagsüber das Sonnenlicht, das durch die Fenster scheint.</li>
+              <li>Fahre Computer und Beamer herunter, wenn du sie nicht brauchst.</li>
+            </ul>
+          </article>
+
+          <article class="card card-bike reveal">
+            <div class="card-icon" aria-hidden="true">🚲</div>
+            <span class="card-number">Tipp 4</span>
+            <h3>Zu Fuß oder mit dem Fahrrad zur Schule</h3>
+            <p>
+              Wer nah an der Schule wohnt, braucht kein Auto. Zu Fuß gehen und Radfahren
+              verursachen keine Abgase.
+            </p>
+            <ul>
+              <li>Du schützt die Luft und sparst Energie.</li>
+              <li>Bewegung an der frischen Luft macht wach und fit.</li>
+              <li>Mit Freunden zusammen macht der Schulweg mehr Spaß.</li>
+            </ul>
+          </article>
+
+          <article class="card card-bus reveal">
+            <div class="card-icon" aria-hidden="true">🚌</div>
+            <span class="card-number">Tipp 5</span>
+            <h3>Öffentliche Verkehrsmittel nutzen</h3>
+            <p>
+              Wer weit von der Schule entfernt wohnt, kann wenn möglich Bus oder Zug nehmen,
+              statt mit dem Auto gebracht zu werden.
+            </p>
+            <ul>
+              <li>Viele Menschen in einem Bus ersetzen viele einzelne Autos.</li>
+              <li>Das bedeutet weniger Verkehr und weniger Abgase.</li>
+              <li>Fahrgemeinschaften sind eine gute Lösung, wenn kein Bus fährt.</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Interaktive Checkliste -->
+    <section id="checkliste" class="section section-alt">
+      <div class="container narrow">
+        <h2 class="section-title">Mein Umwelt-Check</h2>
+        <p class="section-intro">
+          Hake an, was du schon machst. Dein Fortschritt wird in deinem Browser gespeichert.
+        </p>
+
+        <div class="progress-box">
+          <div class="progress-info">
+            <span id="progressText">0 von 8 Aufgaben erledigt</span>
+            <span id="progressPercent">0 %</span>
+          </div>
+          <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <p class="progress-message" id="progressMessage" aria-live="polite">
+            Los geht's! Jeder Haken zählt.
+          </p>
+        </div>
+
+        <ul class="checklist" id="checklist">
+          <li><label><input type="checkbox"><span class="check-text">💧 Ich drehe den Wasserhahn beim Zähneputzen zu.</span></label></li>
+          <li><label><input type="checkbox"><span class="check-text">🧼 Ich lasse beim Händewaschen kein Wasser unnötig laufen.</span></label></li>
+          <li><label><input type="checkbox"><span class="check-text">♻️ Ich trenne meinen Müll richtig.</span></label></li>
+          <li><label><input type="checkbox"><span class="check-text">🧰 Ich repariere Dinge, statt sie gleich wegzuwerfen.</span></label></li>
+          <li><label><input type="checkbox"><span class="check-text">💡 Ich schalte das Licht aus, wenn ich den Raum verlasse.</span></label></li>
+          <li><label><input type="checkbox"><span class="check-text">☀️ Ich nutze tagsüber das natürliche Sonnenlicht.</span></label></li>
+          <li><label><input type="checkbox"><span class="check-text">🚲 Ich gehe zu Fuß oder fahre mit dem Fahrrad zur Schule.</span></label></li>
+          <li><label><input type="checkbox"><span class="check-text">🚌 Ich nehme Bus oder Zug, wenn mein Schulweg weit ist.</span></label></li>
+        </ul>
+
+        <button type="button" class="btn btn-outline" id="resetButton">Alles zurücksetzen</button>
+      </div>
+    </section>
+
+    <!-- Kurze Fakten -->
+    <section id="fakten" class="section">
+      <div class="container">
+        <h2 class="section-title">Wusstest du schon?</h2>
+        <p class="section-intro">Klicke auf eine Karte, um die Antwort zu sehen.</p>
+
+        <div class="facts">
+          <button type="button" class="fact" aria-expanded="false">
+            <span class="fact-front">💧 Wie viel Wasser läuft, wenn man sich die Zähne putzt und den Hahn offen lässt?</span>
+            <span class="fact-back">Bis zu 12 Liter pro Minute können ungenutzt im Abfluss verschwinden.</span>
+          </button>
+          <button type="button" class="fact" aria-expanded="false">
+            <span class="fact-front">🚲 Was passiert, wenn du statt mit dem Auto mit dem Rad fährst?</span>
+            <span class="fact-back">Du erzeugst auf dem Weg keine Abgase und bleibst dabei fit.</span>
+          </button>
+          <button type="button" class="fact" aria-expanded="false">
+            <span class="fact-front">💡 Warum lohnt es sich, Licht auszuschalten?</span>
+            <span class="fact-back">Jede eingesparte Kilowattstunde Strom spart auch Treibhausgase.</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schlussbereich -->
+    <section id="mitmachen" class="final">
+      <div class="container final-inner">
+        <div class="final-icons" aria-hidden="true">🌱 🌍 🌱</div>
+        <h2>Jede kleine Tat zählt!</h2>
+        <p>
+          Du musst nicht die ganze Welt allein retten. Fang einfach mit einem Tipp an
+          und erzähle deinen Freunden davon. Zusammen schaffen wir mehr!
+        </p>
+        <a href="#checkliste" class="btn btn-primary">Jetzt mitmachen</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>🌿 GrünePause – ein Schulprojekt für unsere Umwelt</p>
+      <a href="#start" class="to-top">Nach oben ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
